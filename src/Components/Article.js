@@ -221,7 +221,8 @@ export default class Article extends Component {
 
             </div>
 
-            <div>
+            <div style={{marginTop:30, marginBottom:30, padding:20}}>
+              <span>Share Post</span>
             <span>
                                                 <hr />
                                                 <FacebookShareButton url={`https://apiarticlepengist.herokuapp.com/get-article/${this.props.match.params.id}`} >
