@@ -1,0 +1,15 @@
+{
+  "short_name": "Pengist",
+  "name": "Pengist",
+  "icons": [
+    {
+      "src": "/pgist.png",
+      "type": "image/png",
+      "sizes": "73x73"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}

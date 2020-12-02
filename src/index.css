@@ -1,0 +1,636 @@
+.bg__{
+    background-color: white;
+    height:100vh;
+    margin-top: 120px;
+    padding-left: 90px !important;
+   
+}
+.feedback{
+bottom:34px;
+ position: fixed;
+ right:-32px;
+ z-index: 1000;
+ transform: rotate(-90deg);
+ background-color:#12bb88;
+ padding:0px 10px 35px;
+ height: 0px;
+ color:white;
+ cursor: pointer; 
+}
+.note{
+    width:100%;
+    
+    animation: animate 10s infinite;
+    animation-delay: 600ms;
+    
+}
+.tweet_name{
+    font-size:13px;
+    color:rgba(0,0,0,0.5);
+    margin-top: 16px !important;
+ 
+}
+@keyframes animate{
+    from{
+     opacity: 0;
+    }
+    to{
+    opacity:1
+    }
+}
+.iii label{
+font-size:13px !important
+}
+.iii input{
+    height:30px;
+    outline-color: white !important;
+    font-size: 13px;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.home_h1{
+    font-size: 50px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: bolder !important;
+}
+a.navbar-brand{
+    color:#20c997 !important;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.p_1{
+    margin:30px 0 20px 0px;
+
+    line-height: 2.0em;
+    font-size: 23px;
+    color:rgba(0,0,0,0.7);
+    font-weight:600;
+}
+span.normal-text{
+    font-weight: bold !important;
+    color:#20c997;
+
+    overflow: hidden;
+}
+.btn_outline{
+    border-radius: 3px;
+    background-color: white;
+    padding:10px;
+    font-weight: bold;
+    border: 1px solid #28a745;
+    color:#20c997;
+    transition: 0.3s all linear;
+}
+.btn_outline:hover{
+    background-color: #28a745;
+    padding:10px;
+    font-weight: bold;
+    border: 1px solid white;
+    outline-width: 1px;
+    outline-color: white;
+   
+    color:white;
+}
+.btn_thick{
+    border-radius: 3px;
+    transition: 0.3s all linear;
+    background-color: #28a745;
+    padding:10px;
+    font-weight: bold;
+    border: 1px solid #28a745;
+    color:white;
+}
+/* .btn_thick:hover{
+    background-color: white;
+    padding:10px;
+    font-weight: bold;
+    border: 1px solid #28a745;
+    color:#20c997;
+    transition: 0.3s all linear;
+} */
+
+.btn_class{
+    margin:30px 0 20px 0;
+}
+.media{
+    padding:10px 0 12px 0 !important;
+    margin-top: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.media-body p{
+font-size: 14px !important;
+color:rgba(0,0,0,0.9);
+overflow: hidden;
+max-width: 200px !important;
+
+}
+.media-body h5.mt-1{
+ font-weight: bold;
+}
+.article_im{
+    height:50px;
+    width:70px
+}
+p.category{
+    padding:10px 0;
+}
+p.category span{
+    margin:0 2px 0 4px;
+    padding: 4px;
+    
+    justify-content: center;
+    border: 0.1em solid #319e4a;
+}
+p.category span a{
+  text-decoration: none !important;
+  color:#28a745 !important;
+}
+.medias{
+    margin-top: 20px;
+    border:1px solid rgba(0,0,0,0.1)
+}
+.ch{
+    margin-top: -10px;;
+}
+.trend{
+    font-weight: bold;
+   
+}
+.read{
+font-size: 12px !important;
+width: 90px;
+padding:8px !important;
+
+}
+.left_back{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    background-image: url(https://images.pexels.com/photos/372748/pexels-photo-372748.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+.left_back h1{
+    color:white;
+    font-weight: 700;
+    font-size: 70px;
+}
+.ll{
+    margin-top: 50px !important;
+}
+.left_back h4{
+    color:white;
+    font-style: italic;
+}
+
+.left{
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    flex-direction: column;
+    color:#28a745;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-image: url(https://images.pexels.com/photos/6357/coffee-cup-desk-pen.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.login-text{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px !important;
+}
+input[type="text"].input-box,input[type="email"].input-box,input[type="number"].input-box, input[type="password"].input-box{
+    height:40px;
+    width:100% !important;
+    border:1px solid rgba(0,0,0,0.32) !important;
+    padding-left: 20px;
+    font-size: 13px;;
+    outline-color: #20c997;
+    border-radius:3px;
+
+}
+.label_login{
+    margin-top: 13px;
+    font-size:14px;
+    font-weight: 800;
+    color:rgba(0,0,0,0.7);
+}
+.lt_{
+    background-color: hsl(162, 73%, 46%) !important;
+    padding:7px 15px;
+    border:none;
+}
+form.login_form{
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.1);
+    padding: 19px 30px;
+    width:60%;
+    margin-bottom: 50px;
+}
+.right{
+
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    right:0;
+    flex-direction: column;
+    
+}
+.left h2{
+    font-size: 90px;
+    font-weight: bold;;
+}
+.article{
+    /* padding-top: 70px; */
+}
+.art_img{
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:30vh;
+    flex-direction: column;
+    color:#28a745;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+   
+}
+
+
+.dash_logo{
+   
+    font-weight: bolder;
+    color: #28a745;
+    font-family: 'muli', sans-serif;
+    font-size: 23px;
+    margin: 10px 10px 10px 0;
+    
+}
+.dash{
+    /* background-color: #e3e8ee !important; */
+    /* background-color: red !important; */
+    animation: animate__ 3s linear;
+}
+.dash_nav{
+    background-color: white !important;
+    display: flex;
+    position: fixed;
+    height:60px;
+    flex-direction: row;
+    left: 0;
+    top:0;
+    align-items: center;
+    right:0;
+    justify-content: space-between;
+    z-index: 1 !important;
+    
+}
+.l_t{
+ float: right;
+ color: rgba(0,0,0,0.66);
+ font-weight: 500;
+ margin-right: 60px !important;
+ cursor: pointer;
+ 
+}
+
+.user span{
+   font-size: 15px;
+   position: absolute;
+   color: rgba(0,0,0,0.66);
+   right: 200px;
+   top:17px;
+   cursor: pointer;
+}
+.dash-cont_{
+    padding:  30px ;
+    margin-top: 10px;
+}
+.sidebar{
+    border: 1px solid #e4e7f0;
+    height: 100vh;
+    /* #fafafc; */
+    z-index: 2;
+    position: fixed;
+    padding: 10px 23px;
+    font-family: -apple-system , BlinkMacSystemFont , "Segoe UI" , "Roboto" , "Helvetica Neue" , "Ubuntu" , sans-serif;
+    
+}
+
+.sidebar_item{
+    margin-top: 19px;
+    font-family: -apple-system , BlinkMacSystemFont , "Segoe UI" , "Roboto" , "Helvetica Neue" , "Ubuntu" , sans-serif;
+    color:rgba(0,0,0,0.7);
+    display: flex;
+    cursor: pointer;
+    font-size: 15px;
+    align-items: center;
+    font-weight: 500;
+
+}
+
+.current_list{
+    color:#28a745;
+    font-weight: 600;
+}
+.sr .sidebar_text{
+    margin-left: -12px;
+}
+.sidebar_text{
+    margin-left: 12px;
+}
+.cd{
+
+    background-color: white;
+    padding:20px;
+    cursor:  pointer !important;
+    border-radius: 4px;
+    border:1px solid rgba(0,0,0,0.1);
+    overflow: hidden;
+    
+}
+.cd h5{
+    font-size: 16px;
+    font-weight: 700;
+    color:rgba(0,0,0,0.7)
+}
+.cd p{
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 13px;
+    color:rgba(0,0,0,0.5)
+}
+
+.user {
+    font-family: -apple-system , BlinkMacSystemFont , "Segoe UI" , "Roboto" , "Helvetica Neue" , "Ubuntu" , sans-serif;
+}
+
+.right__inner{
+    background-color: white;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    border-radius: 4px;
+    box-shadow: 0 7px 14px 0 rgba(60,66,87, 0.12), 0 3px 6px 0 rgba(0,0,0, 0.12); 
+}
+.right__inner2{
+    height: 39vh;
+    margin-top: 14px;
+}
+.dashboard_right{
+    padding:60px 30px 10px 30px;
+    right:0 !important;
+    background-color:  #f2f4f7;
+    min-height: 100vh !important;
+    position: absolute !important;
+    
+}
+.welcome {
+    flex-direction: row;
+    border-top: 0.002em solid rgba(0,0,0,0.11);
+    border-bottom: 0.002em solid rgba(0,0,0,0.11);
+    padding:14px 10px 0px 9px
+
+
+}
+.icon__{
+    color:white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+span.user__{
+    margin-bottom: -10px;
+    margin-left: 20px;
+    position: absolute;
+}
+.cr{
+    color:white;
+    background-color: #28a745;
+    padding:8px 2px;
+    animation: animate__ 0.5s linear;
+    border-radius: 4px;
+
+}
+.cr_icon{
+    width:35px !important;
+    height: 35px !important;
+    color:'white';
+    margin-bottom: -6px;
+ 
+}
+.cr__{
+    box-shadow:  0 0 0 0 transparent !important;
+    background-color: #28a745 !important;
+    padding: 2px !important;
+}
+.dash-cont_{
+    box-shadow: 0 2px 4px 0 rgba(210,217,229,.5);
+    border: 1px solid #e4e7f0;
+}
+.jumbotron{
+    background-color: #f2f4f7 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* bold */
+@media screen and (max-width:768px){
+    .dash-cont_{
+        margin-top: 30px;
+        
+    }
+    .label_login{
+        margin-top: 13px;
+        font-size:16px;
+        font-weight: 800;
+        color:rgba(0,0,0,0.6);
+    }
+    input[type="text"].input-box,input[type="email"].input-box, input[type="password"].input-box{
+        height:45px;
+        width:100% !important;
+        border:1px solid rgba(0,0,0,0.1);
+        padding-left: 20px;
+        font-size: 15px;;
+        outline-color: #20c997;
+        border-radius:5px;
+    
+    }
+    form.login_form{
+        border-radius: 5px;
+        margin-top: 30px;
+        box-shadow: 0 0 7px rgba(0,0,0,0.1);
+        padding: 20px 30px;
+        width:92%;
+    }
+    .left{
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:100vh;
+        display: none;
+        background-position: center;
+        background-image: url(https://images.pexels.com/photos/6357/coffee-cup-desk-pen.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    span.bol{
+        display: block;
+        background-color: #28a745;
+        height: 3px;
+        width:31px;
+        margin-top:6px
+    }
+    button.navbar-toggler{
+        border: none !important;
+        outline-width: 0px !important;
+    }
+    p.category{
+        
+        display: flex;
+        margin-top: 55px !important;;
+        flex-direction: row;
+        overflow-x: scroll !important; 
+        overflow-y: scroll !important;
+    }
+    p.category span{
+     border:1px solid rgba(37, 158, 7, 0.5);
+     display: inline-flex;
+     min-width: fit-content !important;
+    
+    }
+    .trend{
+        font-weight: bold;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .article_im{
+        height:70px;
+        width:90px
+    }
+    .p_1{
+        margin:30px 0px;
+        line-height: 1.7em;
+        font-size: 18px;
+        color:rgba(0,0,0,0.7);
+        font-weight:600;
+    }
+    .bg__{
+        background-color: white;
+        height:100vh;
+        margin-top: 100px;
+        padding:0 20px !important;
+       
+    }
+    .home_h1{
+        font-size: 40px !important;
+        
+        font-weight: bolder !important;
+    }
+    .dashboard_right{
+        background-color: #efefef !important;
+    }
+    .dash_nav{
+        background: #28a745 !important;
+        color:white;
+        height:55px
+    }
+    svg{
+    color:inherit
+}
+    span.logout_text{
+        color:white;
+        margin-left: 10px !important;
+    }
+    .dashboard_right{
+        /* display: none; */
+        padding:10px
+        
+    }
+    .box1_dash{
+        margin-bottom: 30px !important;
+    }
+    .sidebar{
+       position: fixed;
+       background-color: white;
+       width: 300px;
+       z-index: 2;
+       height: 100vh;
+       animation: animate_ 0.3s linear;
+       transition: all 0.4s linear;
+       border-right: 1px solid rgba(0,0,0,.1);
+       /* display: none; */
+    }
+    .icon__{
+        color:white;
+        display: flex !important;
+        align-items: center !important;
+         flex-direction: row !important;
+        justify-content: center !important;
+
+    }
+    @keyframes animate_{
+        from{
+        margin-left:  -600px
+        }
+        to{
+        margin-left:  0
+        }
+    }
+    .bg__{
+        margin-top: 20px;
+    }
+
+ 
+}
