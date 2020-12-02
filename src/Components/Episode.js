@@ -2,11 +2,15 @@ import React, { Component } from 'react'
 import Nav from './Nav'
 
 import swal from '@sweetalert/with-react'
-import renderWithHTML from 'react-render-html'
+import renderWithHTML from 'react-render-html';
+import { faFileArchive, faShare, faShareAlt } from '@fortawesome/free-solid-svg-icons'
 import ReactHtmlParser, { processNodes, convertNodeElement, htmlParser } from 'react-html-parser'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faCheck, faGifts, faUsers, faArrowRight, faPeopleCarry, faAirFreshener, faAddressCard, faLifeRing, faRing, faUserGraduate, faBaby, faArchway, faThumbsUp, faUser } from '@fortawesome/free-solid-svg-icons'
 import { Spinner } from 'reactstrap';
+import { TelegramShareButton, TelegramIcon, InstapaperShareButton, InstapaperIcon, TwitterIcon, TwitterShareButton, PinterestShareButton, PinterestIcon, LinkedinIcon, LinkedinShareButton, WhatsappIcon, WhatsappShareButton, EmailShareButton, EmailIcon, FacebookIcon, FacebookShareButton } from 'react-share';
+// import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import getProfile from './getProfile'
 export default class Episode extends Component {
     constructor(props) {
@@ -97,6 +101,7 @@ export default class Episode extends Component {
     }
     render() {
         const { article } = this.state
+         const article_path = `https://pengist.org/${this.props.location.pathname}`
         return (
             <React.Fragment>
                 <Nav />
@@ -237,6 +242,55 @@ export default class Episode extends Component {
 
 
                         </div>
+
+                        <div style={{marginTop:0, marginBottom:30, padding:20}}>
+                        <span>Share Post  <FontAwesomeIcon icon={faShareAlt}/> </span>
+            <span>
+                                                <hr />
+                                                <FacebookShareButton url={article_path} >
+                                                    <FacebookIcon size={33} round={true} />
+                                                </FacebookShareButton>
+                                            </span>
+                                            <span className="ml-2 mt-2">
+                                                <EmailShareButton title="Hello share" url={article_path} >
+                                                    <EmailIcon size={33} round={true} />
+                                                </EmailShareButton>
+                                            </span>
+                                            <span className="ml-2 mt-2">
+                                                <WhatsappShareButton url={article_path} >
+                                                    <WhatsappIcon size={33} round={true} />
+                                                </WhatsappShareButton>
+                                            </span>
+                                            <span className="ml-2 mt-2">
+                                                <LinkedinShareButton url={article_path}>
+                                                    <LinkedinIcon size={33} round={true} />
+                                                </LinkedinShareButton>
+                                            </span>
+                                            {/* <span className="ml-2 mt-2">
+                                                <PinterestShareButton url={`https://apiarticlepengist.herokuapp.com/get-article/${this.props.match.params.id}`} >
+                                                    <PinterestIcon size={33} round={true} />
+                                                </PinterestShareButton>
+                                            </span> */}
+                                            <span className="ml-2 mt-2">
+                                                <TwitterShareButton url={article_path}>
+                                                    <TwitterIcon size={33} round={true} />
+                                                </TwitterShareButton>
+                                            </span>
+                                            <span className="ml-1 share_">
+                                                <InstapaperShareButton className="share_" url={article_path}>
+                                                    <InstapaperIcon size={33} round={true} />
+                                                </InstapaperShareButton>
+                                            </span>
+                                            <span style={{ marginTop: 10 }} className="ml-2 share_">
+                                                <TelegramShareButton style={{ marginTop: 7 }} className="share_" url={article_path}>
+                                                    <TelegramIcon size={33} round={true} />
+                                                </TelegramShareButton>
+                                            </span>
+
+                                            <a className="ml-2" href="https://instagram.com">
+                                                <FontAwesomeIcon icon={faInstagram} size="2x" style={{ color: "#eb3223", float: "right", marginTop: 7, marginRight: 9 }} />
+                                            </a>
+            </div>
                     </div>
                 </div>
             </React.Fragment >
